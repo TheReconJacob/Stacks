@@ -2,18 +2,28 @@
 //
 
 #include <iostream>
-#include "Stack1.h"
+#include "Stack2.h"
 
 int main() {
-    Stack1 stackOne(4);
+    Stack2<int> stackTwoInt(4);
 
-    stackOne.Push(1);
-    stackOne.Push(2);
-    stackOne.Push(3);
-    stackOne.Push(4);
+    stackTwoInt.Push(1);
+    stackTwoInt.Push(2);
+    stackTwoInt.Push(3);
+    stackTwoInt.Push(4);
 
-    while (!stackOne.IsEmpty()) {
-        std::cout << stackOne.Pop() << std::endl;
+    while (!stackTwoInt.IsEmpty()) {
+        std::cout << stackTwoInt.Pop() << std::endl;
+    }
+
+    Stack2<float> stackTwoFloat(4);
+    stackTwoFloat.Push(1.0f);
+    stackTwoFloat.Push(2.0f);
+    stackTwoFloat.Push(3.0f);
+    stackTwoFloat.Push(4.0f);
+
+    while (!stackTwoFloat.IsEmpty()) {
+        std::cout << stackTwoFloat.Pop() << std::endl;
     }
 
     return 0;
