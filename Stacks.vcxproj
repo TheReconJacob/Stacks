@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LinkedStack.cpp" />
     <ClCompile Include="Stack1.cpp" />
     <ClCompile Include="Stacks.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkedStack.h" />
     <ClInclude Include="Stack1.h" />
     <ClInclude Include="Stack2.h" />
   </ItemGroup>

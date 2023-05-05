@@ -1,3 +1,4 @@
+#pragma once
 #include "Stack1.h"
 
 Stack1::Stack1(int maxSize) {

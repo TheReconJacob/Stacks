@@ -21,12 +21,18 @@
     <ClCompile Include="Stack1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Stack1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Stack2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedStack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
